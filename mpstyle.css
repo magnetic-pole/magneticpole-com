@@ -1,0 +1,144 @@
+/* General */
+/* Tab/menu bg: #E2EAFF */
+body {background-color: #ffffff; color: #000000; font-family: sans-serif; margin: 0; padding: 0; border: 0;}
+a:link, a:visited, a:active {color: #0066BB; text-decoration: none; font-weight: bold;}
+a:hover {color: #004499; background-color: #ffff82;}
+a.whitehover:hover { background-color: #ffffff;}
+
+/* Compact tables */
+table.compact {border-collapse: collapse; margin: 0; padding: 0; border: 0;}
+td.compact {margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: left;}
+ul.compact {display: list-item; list-style-type: disc; list-style-position: outside;}
+
+/* Main page news */
+table.newsouter {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.newssection {margin: 10px; padding: 10px; border: 0; text-align: left; vertical-align: middle;}
+table.newsinner {border-collapse: collapse; margin: 0; padding: 5px; border: 0; width: 100%;}
+td.newstitlebar {margin: 0; padding: 5px; border: 0; background-color: #A4BEFF;}
+table.newstitle {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.newstitletopic {margin: 0; padding: 0; border: 0; font-size: 120%; font-weight: bold; text-align: left; vertical-align: bottom;}
+td.newstitleauthor {margin: 0; padding: 0; border: 0; font-size: 75%; font-style: italic; text-align: right; vertical-align: bottom;}
+td.newsdatetime {margin: 0; padding: 5px; border: 0; text-align: left; vertical-align: top; background-color: #A4BEFF;}
+div.newsdate {font-size: 80%; font-weight: bold; font-style: italic; display: inline;}
+div.newstime {font-size: 80%; font-weight: bold; font-style: italic; display: inline;}
+td.newsbody {margin: 0; padding: 5px; border: 0; width: 99%; text-align: left; vertical-align: top; background-color: #E2EAFF;}
+td.newscomments {margin: 0; padding: 5px; border: 0; font-size: 75%; text-align: left; vertical-align: middle; background-color: #CEDCFF;}
+td.newsmore {margin: 0; padding: 15px; border: 0; text-align: left; font-weight: bold; font-style: italic; vertical-align: middle; background-color: #E2EAFF;}
+
+/* Side Box */
+table.sideboxtable {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 200px;}
+td.sideboxtop {width: 200px; height: 12px; margin: 0; padding: 0; border: 0; vertical-align: bottom; text-align: center;}
+td.sidebox {width: 200px; margin: 0; padding: 5px; font-size: 75%; border: 0; vertical-align: top; text-align: left; background: url(menu/mpboxbg.gif);}
+div.sideboxtitle {font-size: 125%; font-weight: bold;}
+td.sideboxbottom {width: 200px; height: 12px; margin: 0; padding: 0; border: 0; vertical-align: top; text-align: center;}
+
+div.roundcorners {
+    border-radius: 20px;
+    border: 2px solid #888888;
+    padding: 20px; 
+}
+
+/*
+h1 {font-size: 150%; display: inline;}
+h2 {font-size: 125%; display: inline;}
+*/
+
+div.indent {padding-left: 2em;}
+.small {font-size: 66%;}
+
+/* Printing */
+.noprint { }
+.printonly {display: none;}
+
+/* Menu */
+div.tabdesc { color: #000000; }
+div.tabtitle { color: #000000; }
+td.menu {height: 23px; margin: 0; padding: 0; border: 0; padding-top: 2px; white-space: nowrap; vertical-align: bottom; text-align: left; background: url(menu/mpmenubg.gif);}
+td.menuspacer {height: 25px; white-space: nowrap; margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: right;}
+td.menuends {height: 25px; white-space: nowrap; margin: 0; padding: 0; border: 0; vertical-align: middle;}
+td.menublank {height: 25px; white-space: nowrap; margin: 0; padding: 0; border: 0; vertical-align: middle;}
+td.mainpagecontent {padding: 5px; margin: 0; padding: 0; border: 0; vertical-align: top; text-align: left; width: 99%;}
+td.undermenu {margin: 0; padding: 0; border: 0; vertical-align: bottom; text-align: left;}
+div.menulink {height: 23px; overflow: hidden; text-overflow: ellipsis; vertical-align: bottom;}
+table.horizmenu {margin: 0; padding: 0; border: 0; border-collapse: collapse; width: 100%;}
+td.horizmenu {padding: 2px; border: solid white 3px; vertical-align: middle; text-align: center; background-color: #E2EAFF; font-weight: bold;}
+
+/* Copyright-type text */
+.copyright {font-size: 55%; text-align: center;}
+
+/* AOM Pages */
+.verticalheader {background-color: #FFFFFF; writing-mode: tb-rl; filter: flipv fliph; white-space: nowrap; font-size: medium; font-family: sans-serif; color: #000000;}
+h1.smcaps {font-size: x-large; font-variant: small-caps; font-weight: bold; font-family: sans-serif; color: #000000; display: inline;}
+h2.smcaps {font-size: large; font-variant: small-caps; font-weight: bold; font-family: sans-serif; color: #000000; display: inline;}
+h4.smcaps {white-space: nowrap; font-size: xx-small; font-family: sans-serif; display: inline;}
+.aomdata {background-color: #FFFFFF; text-align: center; vertical-align: middle; white-space: nowrap; font-size: small; font-family: sans-serif; color: #000000;}
+td.aomrec {text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 85%;}
+td.aomrec_small {text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 70%;}
+td.aomrec_small_win {background-color: #AAFFAA; text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 70%;}
+td.aomrec_small_loss {background-color: #FF8888; text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 70%;}
+td.aomrec_small_unk {background-color: #FFFFAA; text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 70%;}
+td.aomrec_tiny {text-align: center; border: 1px solid #000000; padding: 0.2em 0.3em; vertical-align: middle; font-size: 55%;}
+
+/* Software-style pages */
+table.sw {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.swheader {margin: 0; padding: 5px; border: solid #6495ED 1px; vertical-align: middle; text-align: center; font-family: sans-serif; font-size: large; font-weight: bold; color: #FFFFFF; background-color: #000000;}
+td.swdarktitle {margin: 0; padding: 5px; border: solid #6495ED 1px; vertical-align: middle; text-align: center; font-family: sans-serif; font-size: large; font-weight: bold; color: #000000; background-color: #DDDDDD;}
+td.swdark {margin: 0; padding: 5px; border: solid #6495ED 1px; vertical-align: middle; text-align: left; font-family: sans-serif; color: #000000; background-color: #DDDDDD;}
+td.swlighttitle {margin: 0; padding: 5px; border: solid #6495ED 1px; vertical-align: middle; text-align: center; font-family: sans-serif; font-size: large; font-weight: bold; color: #000000; background-color: #EEEEEE;}
+td.swlight {margin: 0; padding: 5px; border: solid #6495ED 1px; vertical-align: middle; text-align: left; font-family: sans-serif; color: #000000; background-color: #EEEEEE;}
+
+/* Gallery-style pages */
+table.gal {border-collapse: collapse; margin: 0; padding: 0; border: solid #FFFFFF 2px; width: 100%;}
+td.galthumb {margin: 0; padding: 0; border: dotted #999999 1px; vertical-align: bottom; text-align: center; width: 25%;}
+td.galthumbempty {margin: 0; padding: 0; border-left: dotted #6495ED 1px; border-top: dotted #6495ED 1px; border-right: solid #FFFFFF 1px; border-bottom: solid #FFFFFF 1px; width: 25%; background-color: #FFFFFF;}
+table.galthumbitem {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.galthumbtitleblock {margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: center; background-color: #FFFFFF;}
+table.galthumbtitleblock {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.galthumbimg {margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: center; background-color: #FFFFFF;}
+td.galthumbzoom {margin: 0; padding: 1px 1px 1px 5px; border: 0; vertical-align: top; text-align: left;}
+td.galthumbtitle {margin: 0; padding: 1px 5px 1px 1px; border: 0; vertical-align: middle; text-align: center; font-size: 110%; font-weight: bold; width: 99%;}
+td.galthumbdate {margin: 0; padding: 1px 1px 1px 5px; border: 0; vertical-align: middle; font-size: 55%; text-align: left; background-color: #E2EAFF; width: 33%}
+td.galthumbtype {margin: 0; padding: 1px 1px 1px 1px; border: 0; vertical-align: middle; font-size: 55%; text-align: center; background-color: #E2EAFF; width: 33%}
+td.galthumbnum {margin: 0; padding: 1px 5px 1px 1px; border: 0; vertical-align: middle; font-size: 55%; text-align: right; background-color: #E2EAFF; width: 33%}
+td.galthumbdesc {margin: 0; padding: 1px 5px 1px 5px; border: 0; vertical-align: top; font-size: 85%; text-align: center; background-color: #CEDCFF;}
+td.galthumbsave {margin: 0; padding: 1px 5px 1px 1px; border: 0; vertical-align: top; text-align: left;}
+table.galnavbar {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 99%;}
+td.galnavbar {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: left; background-color: #CEDCFF;}
+table.galzoomimgframe {border-collapse: collapse; margin: 5px; padding: 0; border: 0; background-color: #FFFFFF;}
+td.galzoomimgframe {margin: 0; padding: 5px; border: dotted #999999 1px; background-color: #FFFFFF; vertical-align: middle; text-align: center;}
+td.galzoomimg {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: center; width: 100%; background-color: #FFFFFF;}
+td.galzoominfo {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: center; background-color: #E2EAFF;}
+td.galzoomdetails {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: left; font-size: 80%; background-color: #E2EAFF;}
+table.galzoomdetails {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 100%;}
+td.galzoomdetails1r {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: right; font-size: 85%; font-weight: bold; background-color: #CEDCFF;}
+td.galzoomdetails2r {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: right; font-size: 85%; font-weight: bold; background-color: #E8F0FF;}
+td.galzoomdetails1l {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: left; font-size: 80%; background-color: #CEDCFF;}
+td.galzoomdetails2l {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: left; font-size: 80%; background-color: #E8F0FF;}
+td.galzoomtitle {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: center; font-size: 110%; font-weight: bold; background-color: #E2EAFF;}
+td.galzoomprev {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: center; width: 200px;}
+td.galzoomnext {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: center; width: 200px;}
+table.galpopulargroup {border-collapse: collapse; margin: 0; padding: 0; border: 0; width: 99%;}
+td.galpopulargroup {margin: 0; padding: 2px; border: 0; width: vertical-align: top; text-align: center; width: 50%;}
+table.galpopular {border-collapse: collapse; margin: 0; padding: 0; border: 5px solid #CEDCFF; width: 100%;}
+td.galpopulartitle {margin: 0; padding: 0px 5px 5px 5px; border: 0; vertical-align: middle; text-align: center; font-size: 110%; font-weight: bold; background-color: #CEDCFF;}
+td.galpopular1 {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: left; background-color: #FFFFFF;}
+td.galpopular2 {margin: 0; padding: 2px; border: 0; vertical-align: middle; text-align: left; background-color: #EEEEEE;}
+
+/* Alt color tables */
+table.alt {border-collapse: collapse; margin: 0; padding: 0; border: solid 1px #000000;}
+td.altheader {margin: 0; padding: 2px; border: solid 1px #FFFFFF; vertical-align: middle; text-align: center; background-color: #000000; color: #FFFFFF; font-weight: bold; font-size: 110%;}
+td.alt1 {margin: 0; padding: 2px; border: solid 1px #000000; vertical-align: middle; text-align: left; background-color: #FCFFFC; color: #000000; }
+td.alt2 {margin: 0; padding: 2px; border: solid 1px #000000; vertical-align: middle; text-align: left; background-color: #F4FFF4; color: #000000; }
+
+/* VAX pages */
+/* VAX colors:  cape: #0010B5  emblem: #ADAAAD  symbol: #00C3FF */
+body.vax {background-color: #0010B5; color: #DDDDDD; font-family: sans-serif; margin: 0; padding: 0; border: 0; }
+td.topvaxbuttonbar {margin: 0; padding: 5px; border: 0; vertical-align: middle; text-align: left;}
+table.vaxbutton {border-collapse: collapse; margin: 0; padding: 0; border-left: solid 3px #0040E5; border-top: solid 3px #0040E5; border-right: solid 3px #0000A5; border-bottom: solid 3px #0000A5; }
+td.vaxbutton {margin: 0; padding: 3px; vertical-align: middle; text-align: center; background-color: #0020C5; }
+td.vaxbuttondiv {margin: 0; padding: 3px; vertical-align: middle; text-align: center; background-color: #0020C5; border-top: solid 3px #00639F; border-left: solid 3px #0040E5; border-right: solid 3px #0000A5; }
+td.vaxnewstitle {margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: left; font-weight: bold; font-size: 120%; width: 60%;}
+td.vaxnewsdate {margin: 0; padding: 0; border: 0; vertical-align: bottom; text-align: center; font-size: 75%; width: 25%;}
+td.vaxnewsauthor {margin: 0; padding: 0; border: 0; vertical-align: bottom; text-align: right; font-size: 75%; width: 15%;}
+td.vaxmemberauthor {margin: 0; padding: 0; border: 0; vertical-align: middle; text-align: left; font-weight: bold; width: 40%;}
+td.vaxmemberdate {margin: 0; padding: 0; border: 0; vertical-align: bottom; text-align: right; font-size: 80%; width: 60%;}
